@@ -2,6 +2,8 @@ function add(a,b) {
   a + b
 }
 
+add(1100, 85);
+
 function subtract(a,b) {
   a - b
 }
