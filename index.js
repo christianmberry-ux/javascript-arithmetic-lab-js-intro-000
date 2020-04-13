@@ -1,33 +1,31 @@
 function add(a,b) {
-  a + b
+  return a + b
 }
 
-add(1100, 85);
-
 function subtract(a,b) {
-  a - b
+  return a - b
 }
 
 function multiply(a,b) {
-  a * b
+  return a * b
 }
 
 function divide(a,b) {
-  a / b
+  return a / b
 }
 
 function increment(n) {
-  n += 1
+  return n += 1
 }
 
 function decrement(n) {
-  n -= 1
+  return n -= 1
 }
 
 function makeInt(string) {
-  parseInt(string, 10)
+  return parseInt(string, 10)
 }
 
 function preserveDecimal(string) {
-  parseFloat(string)
+  return parseFloat(string)
 }
